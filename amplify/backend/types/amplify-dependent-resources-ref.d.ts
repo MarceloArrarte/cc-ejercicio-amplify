@@ -1,0 +1,20 @@
+export type AmplifyDependentResourcesAttributes = {
+  "api": {
+    "guestbooksimple": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string"
+    }
+  },
+  "auth": {
+    "guestbooksimple6fd5fbb3": {
+      "AppClientID": "string",
+      "AppClientIDWeb": "string",
+      "CreatedSNSRole": "string",
+      "IdentityPoolId": "string",
+      "IdentityPoolName": "string",
+      "UserPoolArn": "string",
+      "UserPoolId": "string",
+      "UserPoolName": "string"
+    }
+  }
+}

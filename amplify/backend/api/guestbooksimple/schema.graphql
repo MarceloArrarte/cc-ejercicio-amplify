@@ -1,0 +1,10 @@
+type Message @model @auth(rules: [
+  # Permite que el dueño (owner) cree, lea, actualice y borre.
+  { allow: owner, operations: [create, read, update, delete] },
+  # Permite que TODOS los usuarios autenticados (private) puedan leer la lista de todos los mensajes.
+  { allow: private, provider: userPools, operations: [read] }
+]) {
+  id: ID!
+  content: String!
+  createdAt: AWSDateTime!
+}

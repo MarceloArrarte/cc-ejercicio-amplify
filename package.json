@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "copy src\\amplify-config.js dist\\amplify-config.js && copy src\\app.js dist\\app.js && copy src\\index.html dist\\index.html",
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

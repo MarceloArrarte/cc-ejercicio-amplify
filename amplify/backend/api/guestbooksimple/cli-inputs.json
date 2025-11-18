@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "guestbooksimple",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authguestbooksimple6fd5fbb3"
+    },
+    "additionalAuthTypes": [],
+    "conflictResolution": {}
+  }
+}
