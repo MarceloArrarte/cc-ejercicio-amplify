@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "build": "cp src/amplify-config.js dist/amplify-config.js && cp src/app.js dist/app.js && cp src/index.html dist/index.html",
+    "build": "mkdir dist && cp src/amplify-config.js dist/amplify-config.js && cp src/app.js dist/app.js && cp src/index.html dist/index.html",
     "start": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
